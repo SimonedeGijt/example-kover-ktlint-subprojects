@@ -1,2 +1,10 @@
-rootProject.name = 'example-ktlint'
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
 
+rootProject.name = 'example-kover-ktlint-subprojects'
+include 'customruleset'
+include 'example-ktlint-demo'
